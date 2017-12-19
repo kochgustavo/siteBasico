@@ -93,7 +93,7 @@ html, body{
 /*  O LUGAR
 ******************/
 .lugar{
-    background-image: url('./imagens/bar_interior.jpg');
+    background-image: url('../imagens/bar_interior.jpg');
 }
 
 
@@ -101,7 +101,7 @@ html, body{
 /*  NOSSOS DRINKS
 ******************/
 .drinks{
-    background-image: url('./imagens/drinks_background.jpg');
+    background-image: url('../imagens/drinks_background.jpg');
 }
 
 
