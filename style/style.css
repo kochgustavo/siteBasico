@@ -49,7 +49,7 @@ html, body{
     position: relative;
 }
 
-.header-video{
+.header-imagem{
     width: 100%;
 }
 
@@ -78,7 +78,7 @@ html, body{
 }
 
 .nav-link:hover{
-    color: #0079d0;
+    color: #000000;
 }
 
 .logo{
@@ -92,22 +92,16 @@ html, body{
 
 /*  O LUGAR
 ******************/
-.lugar{
-    background-image: url('../imagens/bar_interior.jpg');
+.loja{
+    background-image: url('../imagens/loja.jpg');
 }
 
 
 
 /*  NOSSOS DRINKS
 ******************/
-.drinks{
-    background-image: url('../imagens/drinks_background.jpg');
-}
-
-
-.drink-image{
-    max-width: 30%;
-    margin-top: -30px
+.sobre{
+    background-image: url('../imagens/sobre.jpg');
 }
 
 /*  FOOTER
