@@ -1,3 +1,7 @@
+:root {
+    --font-color: white;
+}
+
 /*  GERAL
 ******************/
 html, body{
@@ -5,7 +9,7 @@ html, body{
     margin: 0;
     font-family: Heveltica, Arial, sans-serif;
     background-color: #161616;
-    color: white;
+    color: var(--font-color);
 }
 
 .section-background{
@@ -62,8 +66,47 @@ html, body{
     z-index: 100;
 }
 
+.navigation-checkbox {
+    display: none;
+}
+
+@media screen and (min-width: 690px) {
+    .navigation-label {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 690px) {
+    .navigation {
+        height: 55px;
+    }
+
+    .navigation-label {
+        font-size: 50px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .navigation-list {
+        margin-top: -10px;
+        overflow: hidden;
+        height: 0;
+        transition: height 0.8s ease;
+    }
+
+    .navigation-checkbox:checked + .navigation-list {
+        height: 210px;
+    }
+
+    .navigation-list .navigation-list-item {
+        display: block;
+    }
+}
+    
 .navigation-list{
     padding: 0;
+    background-color: #3b3b3b;
 }
 
 .navigation-list-item{
@@ -72,7 +115,7 @@ html, body{
 }
 
 .nav-link{
-    color: white;
+    color: var(--font-color);
     text-decoration: none;
     font-size: 20px;
 }
